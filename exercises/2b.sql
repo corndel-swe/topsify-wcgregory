@@ -4,4 +4,4 @@
 SELECT track_id
 FROM features
 WHERE speechiness > 0.5
-ORDER BY danceability
+ORDER BY danceability;

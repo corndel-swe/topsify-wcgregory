@@ -3,4 +3,4 @@
 -- Include all columns
 SELECT *
 FROM albums
-ORDER BY release_date DESC
+ORDER BY release_date DESC;

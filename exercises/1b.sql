@@ -2,4 +2,4 @@
 -- database
 SELECT id, name
 FROM tracks
-WHERE explicit = true
+WHERE explicit = true;
