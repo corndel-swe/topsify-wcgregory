@@ -1,0 +1,10 @@
+albums        features      track_genres  users       
+artists       genres        tracks      
+CREATE TABLE albums (
+    id TEXT PRIMARY KEY,
+    name TEXT NOT NULL,
+    artist_id TEXT NOT NULL,
+    release_date TEXT NOT NULL,
+    image_url TEXT,
+    FOREIGN KEY (artist_id) REFERENCES artists(id)
+);
