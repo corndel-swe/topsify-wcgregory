@@ -6,4 +6,4 @@ INNER JOIN albums ON tracks.album_id = albums.id
 INNER JOIN artists ON albums.artist_id = artists.id
 WHERE tracks.explicit = true
 GROUP BY artists.id
-ORDER BY artists.name;
+ORDER BY explicit_track_count;
