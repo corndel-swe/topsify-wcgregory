@@ -4,6 +4,6 @@
 -- (You should group the artists by id, not by name)
 SELECT artists.name, COUNT(albums.id)
 FROM albums
-JOIN artists on albums.artist_id = artists.id
+INNER JOIN artists on albums.artist_id = artists.id
 GROUP BY artists.id
 ORDER BY artists.name;
