@@ -1,0 +1,12 @@
+DROP TABLE genres;
+CREATE TABLE genres (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  name TEXT NOT NULL UNIQUE
+);
+
+DROP TABLE track_genres;
+CREATE TABLE track_genres (
+  track_id TEXT REFERENCES tracks(id) ON DELETE CASCADE,
+  genre_id INTEGER REFERENCES genres(id) ON DELETE CASCADE,
+  PRIMARY KEY (track_id, genre_id)
+);
