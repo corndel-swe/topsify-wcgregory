@@ -8,3 +8,8 @@
 
 -- Could you write the SQL to set up this junction table?
 
+CREATE TABLE track_genres (
+  track_id TEXT REFERENCES tracks(id) ON DELETE CASCADE,
+  genre_id INTEGER REFERENCES genres(id) ON DELETE CASCADE,
+  PRIMARY KEY (track_id, genre_id)
+);

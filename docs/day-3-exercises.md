@@ -15,12 +15,12 @@
 
 ## Exercise 2: Creating tables
 
-- [ ] Check out
+- [x] Check out
       [creating tables](https://tech-docs.corndel.com/sql/creating-tables.html)
 
-- [ ] Complete `exercises/9a.sql`
+- [x] Complete `exercises/9a.sql`
 
-- [ ] Complete `exercises/9b.sql`
+- [x] Complete `exercises/9b.sql`
 
 ## Many-to-many
 

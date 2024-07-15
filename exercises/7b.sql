@@ -3,4 +3,4 @@
 UPDATE users
 SET
   email = 'sonia.lesch@gmail.com'
-WHERE username = 'Sonia.Lesch44'
+WHERE username = 'Sonia.Lesch44';
