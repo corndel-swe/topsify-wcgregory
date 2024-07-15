@@ -18,3 +18,7 @@
 --   }
 -- ]
 
+INSERT INTO users (username, first_name, last_name, email, password) 
+VALUES 
+    ('Vincenza.Kovacek', 'Vincenza', 'Kovacek', 'Vincenza.Kovacek35@hotmail.com', 'oH_d5pqv7Ne0_Mc'),
+    ('Lionel_Ruecker27', 'Lionel', 'Ruecker', 'Lionel.Ruecker@yahoo.com', '6CGHykGWEzFYRA_');
