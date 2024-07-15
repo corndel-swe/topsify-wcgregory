@@ -5,6 +5,7 @@
 SELECT 
     tracks.name,
     albums.name AS album_name,
+    artists.name AS artist_name,
     tracks.explicit,
     tracks.preview_url,
     tracks.disc_number,

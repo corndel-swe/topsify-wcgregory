@@ -24,6 +24,10 @@ function populateTracksTable(tracks) {
     albumName.textContent = track.album_name
     row.appendChild(albumName)
 
+    const artistName = document.createElement('td')
+    artistName.textContent = track.artist_name
+    row.appendChild(artistName)
+
     const explicit = document.createElement('td')
     explicit.textContent = track.explicit ? 'Yes' : 'No'
     row.appendChild(explicit)
