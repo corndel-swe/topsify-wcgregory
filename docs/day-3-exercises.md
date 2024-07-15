@@ -9,9 +9,9 @@
 
 - [x] Complete `exercises/7b.sql`
 
-- [ ] Complete `exercises/8a.sql`
+- [x] Complete `exercises/8a.sql`
 
-- [ ] Complete `exercises/8b.sql`
+- [x] Complete `exercises/8b.sql`
 
 ## Exercise 2: Creating tables
 
